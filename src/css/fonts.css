@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-500.eot');
+	src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-300Italic.eot');
+	src: url('../fonts/MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-300Italic.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-300Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-500Italic.eot');
+	src: url('../fonts/MuseoSansCyrl-500Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-500Italic.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-500Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-900.eot');
+	src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-700.eot');
+	src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-700Italic.eot');
+	src: url('../fonts/MuseoSansCyrl-700Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-700Italic.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-700Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-300.eot');
+	src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-100Italic.eot');
+	src: url('../fonts/MuseoSansCyrl-100Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-100Italic.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-100Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: url('../fonts/MuseoSansCyrl-900Italic.eot');
+	src: url('../fonts/MuseoSansCyrl-900Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-900Italic.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-900Italic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/fonts/icomoon.eot?rb53wa');
+  src:  url('../fonts/fonts/icomoon.eot?rb53wa#iefix') format('embedded-opentype'),
+    url('../fonts/fonts/icomoon.ttf?rb53wa') format('truetype'),
+    url('../fonts/fonts/icomoon.woff?rb53wa') format('woff'),
+    url('../fonts/fonts/icomoon.svg?rb53wa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-cup:before {
+	content: "\e900";
+  }
+  .icon-heart:before {
+	content: "\e901";
+  }
+  .icon-shoe:before {
+	content: "\e902";
+  }
+  .icon-stopwatch:before {
+	content: "\e952";
+  }
+  .icon-bubbles4:before {
+	content: "\e970";
+  }
+  .icon-truck:before {
+	content: "\e9b0";
+  }
+  .icon-facebook:before {
+	content: "\ea90";
+  }
+  .icon-instagram:before {
+	content: "\ea92";
+  }
+  .icon-pinterest2:before {
+	content: "\ead2";
+  }
