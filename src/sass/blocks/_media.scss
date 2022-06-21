@@ -1,5 +1,9 @@
 @media (max-width: 1200px) {
 
+    .container {
+        width: 80%;
+    }
+
     .header {
         &__logo {
             width: 240px;
@@ -44,6 +48,7 @@
 
         .button {
             &_main {
+                font-size: 15px;
                 width: 270px;
                 height: 50px;
             }
@@ -54,5 +59,156 @@
         }
     }
 
+    .advantage {
+        padding-bottom: 50px;
+        &__subheader {
+            font-size: 29px;
+        }
+
+        &__descr {
+            font-size: 13px;
+        }
+    }
+
 }
 
+@media (max-width: 991px) {
+
+    .header {
+        &__logo {
+            width: 200px;
+            img {
+                width: 100%;
+            }
+        }
+
+        &__official {
+            span {
+                font-size: 17px;
+            }
+        }
+
+        &__phone {
+            font-size: 12px;
+        }
+
+        .button {
+            height: 27px;
+        }
+    }
+
+    .promo { 
+
+        &__header {
+            font-size: 30px;
+            line-height: 30px;
+        }
+
+        &__subheader {
+            margin-top: 14px;
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        &__icons {
+            margin-top: 55px;
+            width: 415px;
+        }
+
+        &__icon {
+            img {
+                width: 40px;
+            }
+        }
+
+        .button {
+            &_main {
+                font-size: 15px;
+                width: 270px;
+                height: 50px;
+            }
+        }
+
+        &__link {
+            font-size: 15px;
+        }
+    }
+
+    .advantage {
+        padding-bottom: 50px;
+
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__icon {
+            min-width: 250px;
+        }
+        &__subtitle {
+            font-size: 22px;
+        }
+
+        &__descr {
+            font-size: 18px;
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .header {
+
+        &__official {
+            display: none;
+        }
+
+        &__phone {
+            font-size: 12px;
+        }
+
+        .button {
+            height: 27px;
+        }
+    }
+
+    .promo { 
+
+        &__header {
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+        &__subheader {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        .button {
+            &_main {
+                font-size: 14px;
+                width: 250px;
+                height: 45px;
+            }
+        }
+    }
+    .advantage {
+
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__icon {
+            min-width: 250px;
+        }
+        &__subtitle {
+            font-size: 22px;
+        }
+
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
