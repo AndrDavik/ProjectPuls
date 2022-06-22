@@ -61,12 +61,13 @@
 
     .advantage {
         padding-bottom: 50px;
-        &__subheader {
-            font-size: 29px;
-        }
 
         &__descr {
             font-size: 13px;
+        }
+
+        .title {
+            font-size: 29px;
         }
     }
 
@@ -154,6 +155,13 @@
         }
     }
 
+    .consultation {
+        .title_left {
+            font-size: 29px;
+            line-height: 42px;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -211,6 +219,18 @@
             font-size: 18px;
         }
     }
+
+    .consultation {
+        .title_left {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -249,4 +269,39 @@
             }
         }
     }
+
+    .advantage {
+        .title {
+            font-size: 20px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .consultation {
+        .title_left {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        &__descr {
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        input {
+            width: 260px;
+        }
+
+        .button_submit {
+            width: 260px;
+        } 
+    }
+
 }
