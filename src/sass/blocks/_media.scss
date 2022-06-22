@@ -212,3 +212,41 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+
+    .header {
+        justify-content: flex-end;
+        &__logo {
+            display: none;
+        }
+
+    }
+
+    .promo { 
+
+        &__header {
+            margin-top: 50px;
+            font-size: 17px;
+            line-height: 17px;
+        }
+
+        &__subheader {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        &__icon {
+            display: none;
+        }
+
+        .button {
+            &_main {
+                margin-top: 200px;
+                font-size: 12px;
+                width: 240px;
+                height: 40px;
+            }
+        }
+    }
+}
