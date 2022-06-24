@@ -22,6 +22,28 @@
         left: auto;
         right: -67px;
     }
+    .slick-dots {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        button {
+            font-size: 0;
+            background: blue;
+            border: none;
+            border-radius: 50%;
+            height: 15px;
+            width: 15px;
+            margin: 5px;
+            outline: none;
+        }
+    }
 
+    dl, ol, ul {
+        margin: 0 auto;
+        list-style-type: none;
+    }
 }
+
+
 
