@@ -162,6 +162,15 @@
         }
     }
 
+    .carousel {
+        &__inner {
+            width: 80%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
