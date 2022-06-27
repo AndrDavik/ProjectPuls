@@ -177,6 +177,12 @@
         }
     }
 
+    .feed {
+        &__descr {
+            width: 90%;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -258,6 +264,27 @@
             line-height: 37px;
         }
 
+    }
+
+    .feed {
+        .title {
+            font-size: 25px;
+        }
+        &__img {
+            margin-right: 30px;
+            height: 150px;
+            width: 150px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__count {
+            font-size: 14px;
+        }
+        &_descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
     }
 }
 
@@ -341,6 +368,19 @@
             line-height: 35px;
         }
 
+    }
+
+    .feed {
+        &__item {
+            flex-direction: column;
+
+        }
+        &__img {
+            margin-right: 0;
+        }
+        &__descr {
+            
+        }
     }
 
 }
