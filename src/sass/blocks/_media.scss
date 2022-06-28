@@ -420,6 +420,26 @@
 
     }
 
+    .overlay {
+        .modal {
+            padding: 20px;
+            width: 300px;
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 12px;
+            }
+        }
+        .feed-form {
+            width: 100%;
+            .button {
+                font-size: 14px;
+            }
+        }
+    }
+
+
 }
 
 @media (max-width: 320px) {
@@ -438,6 +458,16 @@
             line-height: 37px;
         }
 
+    }
+
+    .overlay {
+        .modal {
+            padding: 15px;
+            width: 250px;
+            &__subtitle {
+                font-size: 13px;
+            }
+        }
     }
 
 }
