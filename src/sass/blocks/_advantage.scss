@@ -25,6 +25,16 @@
         }
     }
 
+    &__item {
+        &_animated {
+            animation: heartbeat 1.5s ease none infinite alternate-reverse;
+            animation-play-state: paused;
+            &:hover {
+                animation-play-state: running;
+            }
+        }
+    }
+
     &__subtitle {
         font-weight: 700;
         font-size: 18px;
