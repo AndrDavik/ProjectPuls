@@ -400,7 +400,7 @@
             margin-right: 0;
         }
         &__descr {
-            
+            font-size: 14px;
         }
     }
 
@@ -411,11 +411,15 @@
         .title {
             font-size: 25px;
         }
+        &__tabs {
+            flex-direction: column;
+        }
         &__tab {
-            width: 120px;
+            margin-top: 5px;
+            width: 140px;
             height: 40px;
-            font-size: 11px;
-            line-height: 33px;
+            font-size: 14px;
+            line-height: 37px;
         }
 
     }
@@ -447,17 +451,6 @@
         .title {
             font-size: 18px;
         }
-        &__tabs {
-            flex-direction: column;
-        }
-        &__tab {
-            margin-top: 5px;
-            width: 140px;
-            height: 40px;
-            font-size: 14px;
-            line-height: 37px;
-        }
-
     }
 
     .overlay {
